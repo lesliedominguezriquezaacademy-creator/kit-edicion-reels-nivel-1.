@@ -13,6 +13,15 @@ Convierte un video grabado en un Reel vertical 9:16 con subtítulos estilo karao
 3. Copia tu video en `01-crudo/`.
 4. Escribe: `edita mi reel`.
 
+## Mantener el kit al día
+
+Este repositorio existe para que la skill siga funcionando cuando cambian las herramientas que usa (Claude Code, FFmpeg, Whisper, Python).
+
+- **Comprobar tu equipo:** `python scripts/verificar_entorno.py` te dice qué falta o qué versión no es compatible.
+- **Recibir mejoras:** si descargaste el kit con Git, ejecuta `git pull`. Si lo descargaste como zip, vuelve a descargar la última versión (etiqueta) y copia tu carpeta `01-crudo`.
+- **Qué cambió:** mira `CHANGELOG.md`.
+- **Si algo se rompe tras actualizar FFmpeg o Whisper:** abre un issue con el resultado de `verificar_entorno.py`.
+
 ## Versiones
 Las versiones finales se marcan con etiquetas (`v1.0.0`, `v1.1.0`...). Cada cambio importante va en un commit propio.
 

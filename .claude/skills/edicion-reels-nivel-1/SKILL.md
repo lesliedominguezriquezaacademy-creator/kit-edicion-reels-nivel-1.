@@ -15,7 +15,7 @@ Todo el proceso es local y gratuito (Python + FFmpeg + Whisper). Los scripts ya 
 
 ## Paso 0 — Preparar herramientas (solo la primera vez)
 
-Verifica en silencio que existan. Si falta algo, instálalo avisando con un mensaje amable ("Estoy preparando las herramientas, tarda unos minutos la primera vez"):
+Primero ejecuta `python scripts/verificar_entorno.py`: comprueba Python, FFmpeg (con los filtros que usa el kit) y Whisper, y dice qué falta. Si todo está OK, sigue al Paso 1. Si no, resuelve lo que indique con los comandos de abajo. Verifica en silencio que existan. Si falta algo, instálalo avisando con un mensaje amable ("Estoy preparando las herramientas, tarda unos minutos la primera vez"):
 
 ```bash
 python --version
