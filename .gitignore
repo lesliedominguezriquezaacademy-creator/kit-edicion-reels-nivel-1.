@@ -1,0 +1,13 @@
+# Tus videos y resultados no se suben al repositorio
+01-crudo/*
+02-assets/*
+03-output/*
+!01-crudo/.gitkeep
+!02-assets/.gitkeep
+!03-output/.gitkeep
+__pycache__/
+*.pyc
+*.mp4
+*.mov
+*.wav
+*.partial.*
